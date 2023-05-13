@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap{
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.wrap p{
+	font-size: 18px;
+}
+
+header{
+	width: 100%;
+	position: fixed;
+}
+
+.header-top{
+	width: 100%;
+	background: #378FD9;
+}
+
+.navegacion{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding:12px 0;
+}
+
+input[type="search"]{
+	padding: 10px;
+	padding-right: 35px;
+	border: none;
+}
+
+.search{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #fff;
+	padding:0 10px;
+	padding-bottom: 5px;
+	max-height: 85%;
+	overflow-x: hidden;
+	display: none;
+}
+
+.search-table{
+	width: 100%;
+}
+
+tbody tr td{
+	width: 100%;
+}
+
+tbody tr td a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #737373;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	padding-left: 20px;
+	border: 2px solid #fff;
+}
+
+tbody tr td a:hover{
+	border: 2px solid #378FD9;
+}
+
+.search::-webkit-scrollbar{ 
+	background:rgba(0,0,0,0);  
+}
+
+.search::-webkit-scrollbar-button{
+ 	background:#C1C1C1;  
+}
+
+.search::-webkit-scrollbar-thumb{ 
+	background:#C1C1C1; 
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+	display: none;
+}
+
+body{
+	background-image: url("https://th.bing.com/th/id/R.3ff236992de0cf633c7676423e48edaf?rik=z0zGbXJAh4QjFw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fb%2f6%2f1520362-vertical-medical-wallpaper-backgrounds-1920x1080-images.jpg&ehk=Cj3Io9Q2F2LJKErqn%2bow3C%2fnPQjhMjlsQ%2fVRGU%2b0NS4%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+		height: 100px;
+	background-attachment: fixed;
+
+}
+
+p{
+   color:#121212;	
+}
+h1{
+    color:#121212;
+}	
+h2{
+	color:#00ff00;
+}
+h3{
+	color:#121212;
+}
+h4{
+	color:#00ff00;
+}
+li{
+	color:#000000
+}
+
